@@ -1,0 +1,118 @@
+
+
+body{
+	background-color: #DCDCDC;
+}
+
+td{
+	padding: 0px 5px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+blockquote{
+	font-style: italic;
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-variant: normal;
+	font-size: 12px;
+	
+}
+
+blockquote img {
+	margin: 0px;
+	padding: 0px;
+	background-color: Black;
+}
+
+
+img{
+	background-color: White;
+	border: groove;
+	border-color: Silver;
+	margin: 7px;
+	padding: 0px 5px;
+}
+
+code{
+	font-size: 14px;
+}
+
+.logotip{
+	margin: 0px;
+	padding: 0px;
+	background-color: Teal;
+	border: none;
+	border-color: Teal;
+}
+
+.left_position{
+	float: left;
+}
+
+.right_position{
+	float: right;
+}
+
+.color1{
+	color: Red;
+}
+.color2{
+	color: #FFA500;
+}
+.color3{
+	color: Yellow;
+}
+.color4{
+	color: Green;
+}
+.color5{
+	color: Blue;
+}
+
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+#header{
+	height: 150px;
+	padding: 0px;
+	background-color: Teal;
+}
+
+
+/* ------------- */
+/* -- Content -- */
+/* ------------- */
+#content{
+	background-color: #DCDCDC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	padding-left: 40px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	font-weight: 300;
+}
+
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+#footer{
+	float: left;
+	border-top: 1px dotted Teal;
+	/*margin: 20px 0 0 0;
+	padding: 15px 0 50px 0;*/
+	width: 100%;
+	text-align: right;
+	font-size: 10px;
+}
+
+#footer img {
+	background-color: Black;
+	padding: 0px;
+}
